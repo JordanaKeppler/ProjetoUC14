@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+		<title>Hamar Fotografia</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container centro">
+			<header class="banner">
+			<h1> Site Versão Mobile</h1>
+			</header>
+			<nav class="menu negrito maiusculo">
+			<a class="btn" href="#">&#9776;</a>
+			<ul id="links">
+				
+				<li><a href="index.html">Página Inicial</a></li>
+				<li><a href="empresa.html">Sobre Nós</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="servicos.html">Trabalhos Recentes</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<section class="conteudo flex">
+				<article class="coluna">
+					<img class="empresa" src="imagens/empresa-1.png"/>
+					
+				</article>
+				<article class="coluna">
+				<h2>Sobre Nós</h2>			
+			<p>Somos um coletivo de fotógrafos(as) apaixonados pela fotografia de casamentos. Amamos fotografar sorrisos, lágrimas, abraços, beijos, olhares e detalhes. Seja em casamentos, bodas ou quaisquer celebrações onde os sentimentos são os verdadeiros protagonistas. Nosso estilo combina o olhar contemporâneo do fotojornalismo, ampliado pelas técnicas da “Fashion Photography”.</p>
+			<p>Oferecemos um padrão fotográfico contemporâneo e experimental. Buscamos uma abordagem “fresh”, alegre, criativa, inovadora, não invasiva, mas participativa. Afinal, emoções marcam momentos. Você sente, nós fotografamos. Nós somos o Momento Fotográfico e queremos superar suas expectativas.</p>		
+				</article>
+				</section>
+				<footer class="rodape">
+				Copyright &copy; 2019 - Todos os direitos reservados
+			</footer>
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $(".btn").click(function(){
+				$("#links").toggle();
+			  });
+			});
+		</script>
+		
+		
+	</body>
+</html>

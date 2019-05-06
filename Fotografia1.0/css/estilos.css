@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body{
+	margin:0;
+	background-color:#000000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+.container{
+	width: 960px;
+	background-color: #FFFFF0;
+		
+}
+.centro{
+	margin: auto;
+}
+.banner{
+	height: 300px;
+	background-image:url(../imagens/banner.png);
+}
+h1{
+	display: none;
+}
+.menu{
+	background-color:#000080;
+}
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+.menu li{
+	display: inline;
+}
+.menu a{
+	color:#fff;
+	padding: 20px 30px;
+	display:inline-block;
+	text-decoration:none;
+	
+}
+.menu a:hover{
+	background-color: #00FFFF;
+	color: #00c;
+	
+}
+.negrito{
+	font-weight: bold;
+}
+.maiusculo{
+	text-transform:uppercase;
+}
+.flex{
+	display:flex;
+}
+.coluna{
+	flex:1;
+	padding:20px;
+	font-size: 20px;
+	
+}
+.imagem{
+	flex: 1;
+	text-align: center;
+}
+.imagem:first-child, .imagem:last-child{
+	margin:0 20px;
+}
+.imagem img{
+	width: 100%;
+}
+.rodape{
+	padding: 20px 0;
+	background-color: #696969;
+	color: #eee;
+	text-align: center;
+}
+.btn{
+	display: none!important;
+
+}
+.empresa{
+		width: 98%;
+		margin-top: 20px;
+}
+.serv{
+	margin: 20px 0;
+}
+.contato fieldset{
+	width: 400px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	padding: 25px 50px;
+	
+}
+.contato legend{
+	font-size: 25px;
+}
+.contato .forms, .contato textarea{
+	width: 95%;	
+	margin: 10px 0;
+	font-size: 15px;
+	padding: 8px;
+	border-radius: 4px;
+	border: solid 1px #666;
+}
+.contato textarea{
+	font-family: 'Ubuntu', serif;
+	height: 100px;
+	resize: none;
+	font-size: 20px;
+}
+.enviar{
+	display: block;
+	margin: 30px auto;
+	padding: 5px 20px;
+	font-size: 20x;
+	font-weight: bold;
+	color: #000;
+	background-color: #FF00FF;
+	border: solid 3px #999;
+	border-radius: 20px;
+	cursor: pointer;
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	h1{
+		display: block;
+		text-align: center;
+		padding: 30px 0; 
+		background-color: #ccc;
+		margin: 0;
+	}
+	.banner{
+		background-image: none;
+		height: auto;
+		}
+	.flex{
+		display: block;
+	}
+	.imagem{
+		margin: 20px;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu a:hover{
+		background-color: #fc0;
+		color: #fff;
+	}
+	.btn{
+		display:block !important;
+	}
+	
+	#links{
+		display: none;
+		
+	}
+	.empresa{
+		margin: 0;
+		
+	}
+	.contato fieldset{
+		width:100%;
+		
+	}
+}
+
