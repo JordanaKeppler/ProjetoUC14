@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Videos HTML5</title>
+		<link href="css/videos.css" rel="stylesheet" type="text/css" />
+		<link href="jquery.bxslider.css" rel="stylesheet" type="text/css" />
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="jquery.bxslider.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>HTML5 Vídeos</h1>
+			<ul class="bxslider">
+				<li><img src="images/harrypotter.png" /></li>
+				<li><img src="images/ironman.jpg" /></li>
+				<li><img src="images/jurassic.jpeg" /></li>
+				<li><img src="images/justice.jpeg" /></li>
+				<li><img src="images/rogue1.jpg" /></li>
+				<li><img src="images/spider.png" /></li>
+				<li><img src="images/starwars.jpg" /></li>
+				<li><img src="images/superman.jpg" /></li>
+			</ul>
+			<section class="trailers">
+			  <article>
+				<video width="450" height="253" 
+				poster="poster/Vingadores.jpg" controls>
+					<source src="trailers/Vingadores.mp4" type="video/mp4" />
+					<source src="trailers/Vingadores.webm" type="video/webm" />
+					Desculpe, seu navegador não suporta este vídeo.
+				</video>
+				
+				<video width="450" height="253"
+				poster="poster/Jurassic.jpg" controls>
+					<source src="trailers/Jurassic_World.mp4" type="video/mp4" />
+					<source src="trailers/Jurassic_World.webm" type="video/webm" />
+					Desculpe, seu navegador não suporta este vídeo.
+				</video>
+			  </article>
+			  
+			  <article>
+				<video width="450" height="253"  
+				poster="poster/Han_solo.jpg" controls>
+					<source src="trailers/Han_Solo.mp4" type="video/mp4" />
+					<source src="trailers/Han_Solo.webm" type="video/webm" />
+					Desculpe, seu navegador não suporta este vídeo.
+				</video>
+
+				<video width="450" height="253" 
+				poster="poster/Captain.jpg" controls>
+					<source src="trailers/Captain_Marvel.mp4" type="video/mp4" />
+					<source src="trailers/Captain_Marvel.webm" type="video/webm" />
+					Desculpe, seu navegador não suporta este vídeo.
+				</video>
+			  </article>	
+			</section>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		
+		<script type="text/javascript">
+			$('.bxslider').bxSlider({
+				auto: true,
+				pause: 8000,
+				speed: 1000,
+			});;
+		</script>
+		
+	</body>
+</html>
